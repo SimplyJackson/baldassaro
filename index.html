@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jackson Baldassaro</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <nav>
+    <a href="#resume">Resume</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#" onclick="openConnect()">Connect</a>
+  </nav>
+
+  <div class="container">
+    <img src="your-photo.jpg" alt="Your Photo" class="profile-pic" />
+    <h1>Jackson Baldassaro</h1>
+  </div>
+
+  <!-- Connect Modal -->
+  <div id="connect-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeConnect()">&times;</span>
+      <h2>Connect With Me</h2>
+      <div class="social-links">
+        <a href="https://www.instagram.com/YOUR_USERNAME" target="_blank">
+          <i class="fab fa-instagram"></i> Instagram
+        </a>
+        <a href="https://www.linkedin.com/in/YOUR_USERNAME" target="_blank">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="mailto:me@baldassaro.me">
+          <i class="fas fa-envelope"></i> me@baldassaro.me
+        </a>
+        <a href="tel:9857887804">
+          <i class="fas fa-phone"></i> (985) 788-7804
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
